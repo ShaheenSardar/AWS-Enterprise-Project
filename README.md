@@ -138,5 +138,10 @@ To address these issues, this project implements:
 ---
 
 ## 📂 Repository Structure
+AWS-Enterprise-Project/
+├── README.md
+├── scripts/ # Automation and deployment scripts
+├── docs/ # Detailed documentation
+└── screenshots/ # AWS console screenshots (reference only)
 
 
