@@ -143,5 +143,8 @@ AWS-Enterprise-Project/
 ├── scripts/ # Automation and deployment scripts
 ├── docs/ # Detailed documentation
 └── screenshots/ # AWS console screenshots (reference only)
+⚠️ Note: This project is for learning and portfolio purposes.  
+Please do not copy it as your own work.
+
 
 
