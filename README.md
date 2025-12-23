@@ -5,50 +5,51 @@
 
 ## 📌 Project Concept
 
-This project demonstrates how to design and deploy an **enterprise-grade web application infrastructure on AWS** using industry best practices.  
-The goal is to build a **secure, scalable, highly available, and monitored system** similar to what is used in real-world production environments.
+This project demonstrates how to design and deploy an **enterprise-grade web application infrastructure on AWS** using industry best practices.
 
-This project is built **hands-on**, fully documented, and suitable for **cloud/DevOps portfolios and interviews**.
+The goal is to build a **secure, scalable, highly available, and monitored system** similar to real-world production environments used by enterprises.
+
+This project is built **hands-on**, fully documented, and suitable for **cloud / DevOps portfolios and interviews**.
 
 ---
 
 ## ❗ Problem Statement
 
 Traditional web applications often face challenges such as:
-- ❌ Single server failure
+- ❌ Single point of failure
 - ❌ No traffic distribution
 - ❌ Manual scaling
-- ❌ Poor monitoring and alerting
+- ❌ Limited monitoring and alerting
 - ❌ Weak security controls
-- ❌ No clear documentation
+- ❌ Poor documentation
 
-These issues lead to **downtime, poor performance, and security risks**.
+These challenges result in **downtime, performance issues, and security risks**.
 
 ---
 
 ## ✅ Solution Overview
 
-To solve these problems, this project implements:
+To address these issues, this project implements:
 
 - ✔️ A **custom VPC** for network isolation
 - ✔️ **Multiple EC2 instances** for redundancy
 - ✔️ **Application Load Balancer (ALB)** for traffic distribution
 - ✔️ **Amazon RDS (MySQL)** for managed database services
-- ✔️ **IAM roles & users** for secure access
-- ✔️ **CloudWatch monitoring & alarms** for observability
-- ✔️ Clear **documentation and screenshots** for understanding
+- ✔️ **IAM users and roles** for secure access
+- ✔️ **CloudWatch monitoring and alarms** for observability
+- ✔️ Clear **documentation and structured repository**
 
 ---
 
 ## 🧱 Architecture Overview
 
-**User → ALB → EC2 Web Servers → RDS Database**
+**User → Application Load Balancer → EC2 Web Servers → RDS Database**
 
-- Traffic enters through the **Application Load Balancer**
-- Requests are distributed to **multiple EC2 instances**
+- Traffic enters through the **ALB**
+- Requests are distributed across **multiple EC2 instances**
 - Application connects securely to **Amazon RDS**
-- Monitoring is handled by **CloudWatch**
-- Access is controlled using **IAM**
+- Monitoring and metrics are handled by **CloudWatch**
+- Access control is managed through **IAM**
 
 ---
 
@@ -80,7 +81,7 @@ To solve these problems, this project implements:
 
 ### 2️⃣ EC2 Web Servers
 - Launched two EC2 instances
-- Installed web server
+- Installed web server software
 - Enabled SSH access
 - Verified public IP connectivity
 
@@ -114,44 +115,13 @@ To solve these problems, this project implements:
 
 ---
 
-## 📸 Screenshots
-
-### 🌐 VPC & Networking
-![VPC Dashboard](screenshots/01_VPC_Dashboard.png)
-![Public Subnets](screenshots/02_Public_Subnets.png)
-![EC2 Public IPs](screenshots/03_EC2_PublicIPs.png)
-
-### 🖥️ EC2 / Web Servers
-![SSH Web Server 1](screenshots/04_SSH_WS1.png)
-![SSH Web Server 2](screenshots/05_SSH_WS2.png)
-
-### 🔐 Security Groups
-![Security Groups](screenshots/06_SG_WS.png)
-
-### ⚖️ Load Balancer
-![ALB Configuration](screenshots/07_ALB_Config.png)
-![ALB Browser Test](screenshots/08_ALB_Browser_Test.png)
-
-### 🗄️ Database
-![RDS Dashboard](screenshots/09_RDS_Dashboard.png)
-![EC2 to RDS Connection](screenshots/10_EC2_RDS_Connection.png)
-
-### 👤 IAM
-![IAM Role](screenshots/11_IAM_Role.png)
-![IAM User](screenshots/12_IAM_User.png)
-
-### 📊 Monitoring
-![CloudWatch CPU Metric](screenshots/13_EC2_CPU_Metric.png)
-
----
-
 ## 🎯 Project Outcome
 
-- ✅ High availability achieved using ALB + multiple EC2 instances
+- ✅ High availability using ALB and multiple EC2 instances
 - ✅ Improved security with IAM and Security Groups
-- ✅ Scalable architecture ready for production use
-- ✅ Full monitoring and alerting enabled
-- ✅ Clear documentation for reuse and learning
+- ✅ Scalable architecture ready for production workloads
+- ✅ Monitoring and alerting enabled
+- ✅ Clean, enterprise-level documentation
 
 ---
 
@@ -162,10 +132,11 @@ To solve these problems, this project implements:
 - EC2, ALB, RDS configuration
 - IAM security best practices
 - Monitoring & observability
-- Enterprise-level documentation
+- Enterprise documentation standards
 - GitHub portfolio structuring
 
 ---
 
 ## 📂 Repository Structure
+
 
