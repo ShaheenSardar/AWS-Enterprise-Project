@@ -1,11 +1,6 @@
 # AWS Enterprise Project  
 **Enterprise Web Application Deployment on AWS**
 
-An enterprise-level, hands-on AWS project demonstrating real-world cloud architecture using core AWS services.  
-This project is designed for **portfolio showcase**, **interview preparation**, and **practical AWS learning**.
-
----
-
 ## 🚀 Project Overview
 
 This project demonstrates how to design, deploy, and monitor a scalable and secure web application infrastructure on AWS following best practices.
@@ -20,7 +15,6 @@ This project demonstrates how to design, deploy, and monitor a scalable and secu
 - Document the entire setup with screenshots for clarity
 
 ---
-
 ## 🧱 Architecture Components
 
 - **VPC & Networking**
